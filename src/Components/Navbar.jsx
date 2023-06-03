@@ -12,17 +12,17 @@ function Navbar() {
                 <p className='font-bold text-white pl-4'>LUPUS.AI</p>
             </div>
             <div className='flex h-full items-center'>
-                <div className='flex h-full items-center'>
+                <div className='flex h-full items-center cursor-pointer'>
                     <img src={support} alt="support" className='h-full pt-4 pr-4 sm:pr-4 md:pr-0 pb-4 w-auto'/>
-                    <p className='font-bold text-white pl-4 pr-7 hidden sm:hidden md:block'>Support</p>
+                    <p className='font-bold text-white pl-4 pr-7 hidden sm:hidden md:block hover:text-[#8233A8]'>Support</p>
                 </div>
-                <div className='flex h-full items-center'>
+                <div className='flex h-full items-center cursor-pointer'>
                     <img src={settings} alt="support" className='h-full pr-4 sm:pr-4 pt-4 pb-4 w-auto'/>
-                    <p className='font-bold text-white pr-7 hidden sm:hidden md:block'>Settings</p>
+                    <p className='font-bold text-white pr-7 hidden sm:hidden md:block hover:text-[#8233A8]'>Settings</p>
                 </div>
-                <div className='flex h-full items-center'>
+                <div className='flex h-full items-center cursor-pointer'>
                     <img src={logout} alt="support" className='h-full pt-4 pb-4 w-auto pr-4 sm:pr-4 md:pr-0'/>
-                    <p className='font-bold text-white pr-2 sm:pr-2 pl-2 sm:pl-2 md:pr-5 hidden sm:hidden md:block'>Log Out</p>
+                    <p className='font-bold text-white pr-2 sm:pr-2 pl-2 sm:pl-2 md:pr-5 hidden sm:hidden md:block hover:text-[#8233A8]'>Log Out</p>
                 </div>
             </div>
         </div>
