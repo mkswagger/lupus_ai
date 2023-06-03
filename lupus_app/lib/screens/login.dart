@@ -51,7 +51,7 @@ class Login extends StatelessWidget {
                             borderSide: BorderSide.none,
                           ),
                           contentPadding: const EdgeInsets.symmetric(
-                              vertical: 10.0, horizontal: 20.0),
+                              vertical: 10, horizontal: 20.0),
                         ),
                       ),
                     )),
