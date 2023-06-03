@@ -1,6 +1,8 @@
 import './index.css'
-import Login from './Components/Login'
-import LoginForm from './Components/LoginForm'
+import SignIn from './Pages/SignIn'
+import Dashboard from './Pages/Dashboard'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 
 function App() {
@@ -8,8 +10,18 @@ function App() {
 
   return (
     <>
-      <Login />
-      <LoginForm />
+
+
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element= {<SignIn />}/>
+        </Routes>
+     
+        <Routes>
+          <Route exact path="/Dashboard" element= {<Dashboard /> }/>
+        </Routes>
+      </BrowserRouter>
+      
     </>
   )
 }
