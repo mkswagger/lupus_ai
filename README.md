@@ -75,6 +75,21 @@ Follow these steps to get started with the project:
 3. Configure the necessary settings and credentials.
 4. Run the application: `npm start`
 
+## Made by Team Lupus for Porfolio Hacks MLH
+
+### Team Lupus
+
+[Shinjan Patra](https://github.com/flaminshinjan) <br>Role: App Developer
+
+[Mathangy Krishna](https://github.com/mkswagger)      <br>Role: ML Developer
+
+[Tanmay Agarwal](https://github.com/tanmayagrwl)    <br>Role: FrontEnd Developer 
+
+[Jatin Kumar](https://github.com/jatindotdev)    <br>Role: Backend Developer 
+
+
+
+[Aakash Rawat](https://github.com/tripsterxx)    <br>Role: Backend Developer
 
 ## License
 
