@@ -42,7 +42,7 @@ Fraudulent transactions pose a significant threat to the financial sector, causi
 - The Lupus mobile app will provide real-time notifications of suspicious transactions to bank customers
 - The system will have the capability to learn and adapt to new fraud patterns for improved accuracy and efficiencyy text
 
-# Future Scope of LUPUS_AI
+# Future Scope of Lupus_ai
 
 Lupus can be of use to the financial sector by detecting fraudulent activities in real-time and preventing potential losses. The machine learning-based system utilizes advanced algorithms and techniques to analyze large volumes of transactional data, providing a reliable and efficient means of fraud detection. Its user-friendly web application and mobile app make it accessible to banks and their customers, enhancing the customer experience and improving overall security. The project's scope includes implementing the system in real-world scenarios and expanding its capabilities to include additional features such as fraud prediction.
 
@@ -56,5 +56,13 @@ Lupus can be of use to the financial sector by detecting fraudulent activities i
 - Development of a user-friendly dashboard for banks and financial institutions to visualize and monitor their transactional data.
 - Integration with mobile devices and biometric authentication for added security and convenience.
 
+
+# Website UI
+
+<img width="400" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/74d93089-df17-4d0a-8b0a-3f5e33e72707">
+
+### User Dashboard with details of transactions and graphical data rendered from the ML model in the backend for the transaction
+---
+<img width="956" alt="image" src="https://github.com/mkswagger/lupus_ai/assets/34826479/2e69c466-82ea-4769-9ea1-61a898b960b9">
 
 
