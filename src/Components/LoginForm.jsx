@@ -1,6 +1,7 @@
 import React from 'react'
 import facebook from '../assets/facebook.png'
 import google from '../assets/google.png'
+import { Link } from 'react-router-dom'
 function LoginForm() {
   return (
     <>
@@ -16,7 +17,9 @@ function LoginForm() {
                         <label className="block text-white font-bold mb-2" for="password">Password</label>
                         <input className="appearance-none bg-transparent border-b-2 border-white w-full py-2 px-3 text-white leading-tight focus:outline-none focus:border-[#8233A8]" id="password" type="password" placeholder="Enter your password" />
                     </div>
-                <button className="bg-[#632282] hover:bg-[#8233A8] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="submit">Sign In</button>
+                <Link to="/Dashboard">    
+                    <button className="bg-[#632282] hover:bg-[#8233A8] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="submit">Sign In</button>
+                </Link>
 
                     <p className='text-gray-500 text-center mt-8 mb-4'>Or Sign In with</p>
                     
