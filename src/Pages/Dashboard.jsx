@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Brand from '../Components/Brand'
 import Table from '../Components/Table'
+import Graph from '../Components/Graph'
 
 function Dashboard() {
   return (
