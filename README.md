@@ -67,6 +67,15 @@ Lupus can be of use to the financial sector by detecting fraudulent activities i
 ---
 <img width="956" alt="image" src="https://github.com/mkswagger/lupus_ai/assets/34826479/2e69c466-82ea-4769-9ea1-61a898b960b9">
 
+## ML model of Lupus.ai
+
+The ML model in Lupus.ai employs KNN, Random Forest, and RGB Boost algorithms to detect and prevent financial fraud. Compressed using joblib, the model is seamlessly integrated into the Django server, enabling real-time predictions and efficient communication. It classifies transactions as fraudulent or legitimate, providing prompt actions for fraud prevention. The model's scalability and performance handle large volumes of transactional data, while continuous improvement ensures adaptation to evolving fraud patterns. Lupus.ai's ML model offers accurate and efficient fraud detection, safeguarding financial institutions and providing a secure banking experience.
+
+![image](https://github.com/mkswagger/lupus_ai/assets/34826479/a2223800-34dd-488c-afad-c1cdf5ff37e8)
+![image](https://github.com/mkswagger/lupus_ai/assets/34826479/e66a349a-24e3-45f8-96e8-477d13ec619d)
+![image](https://github.com/mkswagger/lupus_ai/assets/34826479/a905bd16-553a-4388-8255-010788e8fd33)
+
+
 # Getting Started 🔨⚒
 
 Follow these steps to get started with the project:
