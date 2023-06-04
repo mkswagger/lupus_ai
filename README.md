@@ -1,8 +1,8 @@
-# LUPUS_AI - SAFEGUARDING YOUR FINANCES 💱💰
+# Lupus.ai - Safeguarding Your Finances 💱💰
 
 Lupus AI is a state-of-the-art financial protection system that combines the power of machine learning with a seamless app and website integration. Our mission is to revolutionize fraud detection and prevention, ensuring the safety and security of your hard-earned wealth.
 
-# APP_UI 📱
+# App_UI 📱
  
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/693b9573-a468-42b8-b608-56fb15f0fed2">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/3797c619-33b8-4ff3-a4b5-021f84528393">
@@ -12,7 +12,7 @@ Lupus AI is a state-of-the-art financial protection system that combines the pow
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/e534e939-114f-41bb-84e7-0612587b70e9">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/a5c5a24b-0b49-407d-9359-0439dfa880ed">
 
-# LUPUS_AI MADE WITH 💜 and 
+# Lupus.ai MADE WITH 💜 and 
 
 [![Flutter](https://img.shields.io/badge/Flutter-2.0-blue.svg?logo=flutter&logoColor=white&color=02569B)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white&color=3776AB)](https://www.python.org)
