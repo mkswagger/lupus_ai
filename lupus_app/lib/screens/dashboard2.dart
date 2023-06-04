@@ -316,7 +316,31 @@ class DashboardPage extends StatelessWidget {
                       color: Colors.white,
                       fontSize: 20,
                       fontWeight: FontWeight.bold),
-                )
+                ),
+                SizedBox(width: 10),
+                Image.asset(
+                  'assets/safe.png',
+                  height: 12,
+                ),
+                Text(
+                  " - Safe",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(width: 10),
+                Image.asset(
+                  'assets/unsafe.png',
+                  height: 12,
+                ),
+                Text(
+                  " - Fraud",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold),
+                ),
               ],
             ),
           ),
