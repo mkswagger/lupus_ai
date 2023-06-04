@@ -21,30 +21,28 @@ function Table() {
     
       return (
         <div className="flex flex-col md:flex-row bg-gray-900 p-4 md:p-8">
-          <table className="table-fixed w-full md:w-1/2">
-            <thead>
-              <tr>
-                <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">ID</th>
-                <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Receiver</th>
-                <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Amount</th>
-                <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Date and Time</th>
-                <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Safe / Unsafe</th>
-
-              </tr>
-            </thead>
-            <tbody>
-              {transactions.map((transaction) => (
-                <tr key={transaction.id} className=" text-white bg-gray-800">
-                  <td className="w-1/5 px-4 py-2">{transaction.id}</td>
-                  <td className="w-1/5 px-4 py-2">{transaction.name}</td>
-                  <td className="w-1/5 px-4 py-2">{transaction.amount}</td>
-                  <td className="w-1/5 px-4 py-2">{transaction.date}</td>
-                  <td className="w-1/5 px-4 py-2">{transaction.safe}</td>
-
-                </tr>
-              ))}
-            </tbody>
-          </table>
+         <table className="table-fixed w-full md:w-1/2">
+      <thead>
+        <tr>
+          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">ID</th>
+          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Receiver</th>
+          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Amount</th>
+          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Date and Time</th>
+          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Safe / Unsafe</th>
+        </tr>
+      </thead>
+      <tbody>
+        {transactions.map((transaction) => (
+          <tr key={transaction.id} className="text-white bg-gray-800">
+            <td className="w-1/5 px-4 py-2">{transaction.id}</td>
+            <td className="w-1/5 px-4 py-2">{transaction.name}</td>
+            <td className="w-1/5 px-4 py-2">{transaction.amount}</td>
+            <td className="w-1/5 px-4 py-2">{transaction.date}</td>
+            <td className="w-1/5 px-4 py-2">{transaction.safe.toString()}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
     
           <div className="flex flex-wrap justify-center md:w-1/2">
            
