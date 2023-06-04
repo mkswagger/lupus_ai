@@ -88,9 +88,6 @@ Follow these steps to get started with the project:
 [Jatin Kumar](https://github.com/jatindotdev)    <br>Role: Backend Developer 
 
 
-
-[Aakash Rawat](https://github.com/tripsterxx)    <br>Role: Backend Developer
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
