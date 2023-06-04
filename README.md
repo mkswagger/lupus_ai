@@ -65,4 +65,21 @@ Lupus can be of use to the financial sector by detecting fraudulent activities i
 ---
 <img width="956" alt="image" src="https://github.com/mkswagger/lupus_ai/assets/34826479/2e69c466-82ea-4769-9ea1-61a898b960b9">
 
+# Getting Started
+
+Follow these steps to get started with the project:
+
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+2. Install the required dependencies: `npm install`
+3. Configure the necessary settings and credentials.
+4. Run the application: `npm start`
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+
 
