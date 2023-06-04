@@ -14,12 +14,13 @@ Lupus AI is a state-of-the-art financial protection system that combines the pow
 
 # LUPUS_AI MADE WITH 💜 and 
 
-[![Flutter](https://img.shields.io/badge/Flutter-2.0-blue.svg?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Python](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://www.python.org)
-[![Django](https://img.shields.io/badge/Django-3.2-blue.svg?logo=django&logoColor=white)](https://www.djangoproject.com)
-[![React](https://img.shields.io/badge/React-17.0-blue.svg?logo=react&logoColor=white)](https://reactjs.org)
-[![Vite](https://img.shields.io/badge/Vite-2.6-blue.svg?logo=vite&logoColor=white)](https://vitejs.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2.2-blue.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Flutter](https://img.shields.io/badge/Flutter-2.0-blue.svg?logo=flutter&logoColor=white&color=02569B)](https://flutter.dev)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white&color=3776AB)](https://www.python.org)
+[![Django](https://img.shields.io/badge/Django-3.2-blue.svg?logo=django&logoColor=white&color=092E20)](https://www.djangoproject.com)
+[![React](https://img.shields.io/badge/React-17.0-blue.svg?logo=react&logoColor=white&color=61DAFB)](https://reactjs.org)
+[![Vite](https://img.shields.io/badge/Vite-2.6-blue.svg?logo=vite&logoColor=white&color=646CFF)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2.2-blue.svg?logo=tailwind-css&logoColor=white&color=38B2AC)](https://tailwindcss.com)
+
 
 # Problem Statement 
 
