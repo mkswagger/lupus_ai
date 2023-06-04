@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter/material.dart';
+import 'package:lupus_app/screens/dashboard1.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
@@ -66,9 +65,7 @@ class DashboardPage extends StatelessWidget {
             children: [
               IconButton(
                 icon: Image.asset('assets/home.png'),
-                onPressed: () {
-                  // Action when the home button is pressed
-                },
+                onPressed: () {},
               ),
               IconButton(
                 icon: Image.asset('assets/money.png'),
@@ -81,7 +78,10 @@ class DashboardPage extends StatelessWidget {
               IconButton(
                 icon: Image.asset('assets/stats.png'),
                 onPressed: () {
-                  // Action when the notifications button is pressed
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => StatisticsPage()),
+                  );
                 },
               ),
               IconButton(

@@ -89,7 +89,11 @@ class Login extends StatelessWidget {
                   left: 30,
                   child: MaterialButton(
                     onPressed: () {
-                      print('Login Button Pressed');
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DashboardPage()),
+                      );
                     },
                     color: Color.fromARGB(144, 122, 58, 175),
                     textColor: Colors.white,
