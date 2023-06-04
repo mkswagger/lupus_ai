@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lupus_app/screens/dashboard1.dart';
+import 'package:lupus_app/screens/stats.dart';
 import 'package:lupus_app/screens/dashboard2.dart';
 import 'package:lupus_app/screens/login.dart';
 import 'package:lupus_app/screens/splash.dart';

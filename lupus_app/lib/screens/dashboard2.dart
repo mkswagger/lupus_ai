@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lupus_app/screens/dashboard1.dart';
+import 'package:lupus_app/screens/stats.dart';
+import 'package:lupus_app/screens/transactions.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
@@ -130,7 +131,13 @@ class DashboardPage extends StatelessWidget {
               Column(
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => TransactionsPage()),
+                      );
+                    },
                     child: Image.asset(
                       'assets/trans.png',
                       height: 75,
@@ -263,42 +270,42 @@ class DashboardPage extends StatelessWidget {
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/unsafe2.png',
                 height: 50,
               ),
               SizedBox(
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/safe2.png',
                 height: 50,
               ),
               SizedBox(
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/sb.png',
                 height: 50,
               ),
               SizedBox(
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/netflix.png',
                 height: 50,
               ),
               SizedBox(
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/figma.png',
                 height: 50,
               ),
               SizedBox(
                 width: 10,
               ),
               Image.asset(
-                'assets/profile.png',
+                'assets/unsafe1.png',
                 height: 50,
               ),
             ]),
