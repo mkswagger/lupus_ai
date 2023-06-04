@@ -24,9 +24,9 @@ function Table() {
          <table className="table-fixed w-full md:w-1/2">
       <thead>
         <tr>
-          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">ID</th>
-          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Receiver</th>
-          <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Amount</th>
+          <th className="w-1/12 px-4 py-2 text-left bg-[#000113] text-white">ID</th>
+          <th className="w-1/6 px-4 py-2 text-left bg-[#000113] text-white">Receiver</th>
+          <th className="w-1/6 px-4 py-2 text-left bg-[#000113] text-white">Amount</th>
           <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Date and Time</th>
           <th className="w-1/5 px-4 py-2 text-left bg-[#000113] text-white">Safe / Unsafe</th>
         </tr>
@@ -34,10 +34,10 @@ function Table() {
       <tbody>
         {transactions.map((transaction) => (
           <tr key={transaction.id} className="text-white bg-gray-800">
-            <td className="w-1/5 px-4 py-2">{transaction.id}</td>
-            <td className="w-1/5 px-4 py-2">{transaction.name}</td>
-            <td className="w-1/5 px-4 py-2">{transaction.amount}</td>
-            <td className="w-1/5 px-4 py-2">{transaction.date}</td>
+            <td className="w-1/12 px-4 py-2">{transaction.id}</td>
+            <td className="w-1/6 px-4 py-2 ">{transaction.name}</td>
+            <td className="w-1/6 px-4 py-2">{transaction.amount}</td>
+            <td className="w-1/5 px-4 py-2 text-xs">{transaction.date}</td>
             <td className="w-1/5 px-4 py-2">{transaction.safe.toString()}</td>
           </tr>
         ))}
