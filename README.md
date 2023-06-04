@@ -12,4 +12,14 @@ Lupus AI is a state-of-the-art financial protection system that combines the pow
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/e534e939-114f-41bb-84e7-0612587b70e9">
 <img width="200" alt="Screenshot 2023-06-03 at 10 18 54 AM" src="https://github.com/mkswagger/lupus_ai/assets/34826479/a5c5a24b-0b49-407d-9359-0439dfa880ed">
 
+# LUPUS_AI MADE WITH 💜 and 
+
+[![Flutter](https://img.shields.io/badge/Flutter-2.0-blue.svg?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://www.python.org)
+[![Django](https://img.shields.io/badge/Django-3.2-blue.svg?logo=django&logoColor=white)](https://www.djangoproject.com)
+[![React](https://img.shields.io/badge/React-17.0-blue.svg?logo=react&logoColor=white)](https://reactjs.org)
+[![Vite](https://img.shields.io/badge/Vite-2.6-blue.svg?logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2.2-blue.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+
+
 
