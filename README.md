@@ -21,5 +21,16 @@ Lupus AI is a state-of-the-art financial protection system that combines the pow
 [![Vite](https://img.shields.io/badge/Vite-2.6-blue.svg?logo=vite&logoColor=white)](https://vitejs.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2.2-blue.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
+# Problem Statement 
+
+Fraudulent transactions pose a significant threat to the financial sector, causing substantial financial losses. Current fraud detection methods often fall short in effectively identifying and preventing such activities. To tackle this pressing issue, we present Lupus, an ML-powered solution. Leveraging advanced algorithms and real-time analysis of extensive transactional data, Lupus swiftly detects and flags potential fraud transactions. By providing timely alerts, it helps safeguard banks from financial losses and combat fraudulent activities.
+
+# Features
+- Automatic flagging of potential fraudulent transactions
+- User-friendly web and mobile app interface for easy access and management of flagged transactions
+- Customizable alert settings for tailored notifications to relevant personnel
+- Secure and encrypted data storage to protect sensitive information
+- Regular updates and improvements based on ongoing analysis and feedback from users
+
 
 
